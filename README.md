@@ -29,6 +29,29 @@ and works on your local machine.
 
 ---
 ## Initial Setup
+*  Open up IDE
+*  Go to settings
+*  Look for SSH Key option, click it  
+  * Copy SSH code, should start with  
+  `ssh-rsa`  
+An SSH Key is a long encryption that serves as a way of identification and doesn't require a  
+password, which makes it safer because it isn't open for people to try to guess your password and   
+mess with your files.
+* Go to [Github](Github.com) Website  
+* Click button that says "Sign up" for Github  
+  * Insert information (e-mail,username,password etc.)  
+  * Confirm account by checking e-mail 
+* Look at the top right of the screen on Github.
+* Click on your account picture 
+  * Click settings
+    * on left their is a drop down menu, click on SSH Keys
+    * add SSH key give the key a title
+* Return to your IDE add the lines of code github gives you, SEPERATLY!!
+* Insert `ssh -T git@github.com` to that you connected your IDE with your Github
+  * You should see `Hi <username>! You've successfully authenticated, but GitHub does not provide shell access. ` 
+* After this you should do `git config --global user.name "First Last" ` which will prompt you to do  
+`git config --global user.email email@whatever.org`  
+-Doing this allows the changes being added to be put under your name to give you credit for your work
 
 
 
@@ -38,4 +61,4 @@ and works on your local machine.
 
 
 ---
-## Workflow & Commands
+## Workflow & Commands-+
