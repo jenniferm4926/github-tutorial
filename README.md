@@ -90,5 +90,6 @@ Changes not staged for commit:
 Once you `comit` changes you can 
 `git push` and you can do `git status` inbetween to see the changes. It's an ongoing that doesnt   
 have a real order but the options are , add/modify/delete, `git add`, `git status`, `git commit`, `git push` and in some   
-cases when collaborating git pull
+cases when collaborating `git pull. 
+
 
