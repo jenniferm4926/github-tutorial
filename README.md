@@ -72,6 +72,23 @@ and after this you type `git push` if you set a `orgin master` if you haven't th
 git remote add origin git@github.com
 git push -u origin master
 ```  
-What this does is sets up the main repository where all your pushes will go to.
+##### What this does is sets up the main repository where all your pushes will go to.
 ---
 ## Workflow & Commands 
+`git add` is constantly used after changes are made to files and files have to be sent again to the stage
+where `git commit` takes another picture that shows the changes.
+`git status` helps you monitor what files have been renamed,deleted or modified.
+A sample would be 
+```
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+```
+Once you `comit` changes you can 
+`git push` and you can do `git status` inbetween to see the changes. It's an ongoing that doesnt   
+have a real order but the options are , add/modify/delete, `git add`, `git status`, `git commit`, `git push` and in some   
+cases when collaborating git pull
+
